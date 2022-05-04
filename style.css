@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(44, 179, 243, 1);
+}
+
+.texto{
+  text-align: center;
+  width: 500px;
+  font-size: 30px;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.corpo{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 550px;
+    width: 600px;
+    border-radius: 40px 40px 0 0;
+    background:white;
+    z-index:2;
+}
+.rosto{
+    background: rgba(255, 225, 201, 1);
+    position: absolute;
+    height: 300px;
+    width: 482px;
+    left: 10%;
+    top: 60px;
+    border-radius: 50%;
+    z-index:5;
+}
+.olho1{
+    position:absolute;
+    height: 45px;
+    width: 45px;
+    left: 20%;
+    top: 30%;
+    border-radius: 100px;
+    background: black;
+    z-index:7;
+}
+.olho2{
+    position:absolute;
+    height: 45px;
+    width: 45px;
+    right: 20%;
+    top: 30%;
+    border-radius: 100px;
+    background: black;
+    z-index:7;
+}
+
+.login{
+  position:absolute;
+    left:35%;
+    top:160px;
+    z-index:9;
+}
+
+.email, .senha{
+    height:30px;
+    border:2px solid rgb(32, 32, 32);
+    display: block;
+}
+button{
+    position:absolute;
+    top:350px;
+    left:38%;
+    height:50px;
+    width:120px;
+    background-color: limegreen;
+    border:none;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    box-shadow: black;
+    z-index: 10;
+}
